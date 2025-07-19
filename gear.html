@@ -1,0 +1,105 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Gear Grid | WWSWA</title>
+    <link rel="stylesheet" href="./style.css" />
+    <meta name="description" content="Essential survival gear, rated and reviewed." />
+</head>
+<body>
+    <header class="main-header">
+        <div class="container">
+            <a href="index.html" class="logo"><img src="assets/logo.png" alt="World Wide Survival Web Archive Logo"></a>
+            <nav class="main-nav">
+                <ul>
+                    <li><a href="gear.html" class="active">Gear Grid</a></li>
+                    <li><a href="scenarios.html">Scenarios</a></li>
+                    <li><a href="bugout.html">Bug Out Builder</a></li>
+                    <li><a href="skills.html">Skills Academy</a></li>
+                    <li><a href="printables.html">Printables</a></li>
+                    <li><a href="radio.html">Radio</a></li>
+                    <li><a href="kids.html">WW Junior</a></li>
+                    <li><a href="quizzes.html">Quizzes</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main class="section">
+        <div class="container">
+            <h2 class="section-title">Gear Grid</h2>
+            <div class="filter-bar">
+                <label for="sort">Sort By:</label>
+                <select id="sort" name="sort">
+                    <option value="rating">Rating</option>
+                    <option value="price-low">Price (Low-High)</option>
+                    <option value="price-high">Price (High-Low)</option>
+                </select>
+                <label for="category">Category:</label>
+                <select id="category" name="category">
+                    <option value="all">All</option>
+                    <option value="tools">Tools</option>
+                    <option value="shelter">Shelter</option>
+                    <option value="water">Water</option>
+                    <option value="fire">Fire</option>
+                </select>
+            </div>
+            <div class="card-grid">
+                <article class="card gear-card">
+                    <div class="card-image"><img src="https://images.unsplash.com/photo-1620243423184-3abe47548318?q=80&w=800&auto=format&fit=crop" alt="Multi-Tool"></div>
+                    <div class="card-content">
+                        <h3 class="card-title">Tactical Multi-Tool</h3>
+                        <p class="price">$49.99</p>
+                        <p class="rating" aria-label="4 out of 5 stars">★★★★☆</p>
+                        <p class="card-text">16-in-1 stainless steel tool for any situation.</p>
+                        <div class="card-footer"><a href="#" class="btn" target="_blank" rel="noopener noreferrer">View on Amazon</a></div>
+                    </div>
+                </article>
+                <article class="card gear-card">
+                    <div class="card-image"><img src="https://images.unsplash.com/photo-1599493356242-a8a5d3f273b7?q=80&w=800&auto=format&fit=crop" alt="Water Filter"></div>
+                    <div class="card-content">
+                        <h3 class="card-title">Portable Water Filter</h3>
+                        <p class="price">$21.95</p>
+                        <p class="rating" aria-label="5 out of 5 stars">★★★★★</p>
+                        <p class="card-text">Removes 99.99% of waterborne bacteria.</p>
+                        <div class="card-footer"><a href="#" class="btn" target="_blank" rel="noopener noreferrer">View on Amazon</a></div>
+                    </div>
+                </article>
+                <article class="card gear-card">
+                    <div class="card-image"><img src="https://images.unsplash.com/photo-1598424262899-635b9b841570?q=80&w=800&auto=format&fit=crop" alt="Emergency Tent"></div>
+                    <div class="card-content">
+                        <h3 class="card-title">Emergency Bivy/Tent</h3>
+                        <p class="price">$19.99</p>
+                        <p class="rating" aria-label="4 out of 5 stars">★★★★☆</p>
+                        <p class="card-text">Ultralight, waterproof, and thermal shelter.</p>
+                        <div class="card-footer"><a href="#" class="btn" target="_blank" rel="noopener noreferrer">View on Amazon</a></div>
+                    </div>
+                </article>
+                <article class="card gear-card">
+                    <div class="card-image"><img src="https://images.unsplash.com/photo-1559249826-c3093933b934?q=80&w=800&auto=format&fit=crop" alt="Fire Starter"></div>
+                    <div class="card-content">
+                        <h3 class="card-title">Magnesium Fire Starter</h3>
+                        <p class="price">$9.99</p>
+                        <p class="rating" aria-label="5 out of 5 stars">★★★★★</p>
+                        <p class="card-text">Reliable all-weather fire starting tool.</p>
+                        <div class="card-footer"><a href="#" class="btn" target="_blank" rel="noopener noreferrer">View on Amazon</a></div>
+                    </div>
+                </article>
+            </div>
+        </div>
+    </main>
+
+    <footer class="main-footer">
+        <div class="container">
+            <ul class="footer-links">
+                <li><a href="#">Newsletter</a></li>
+                <li><a href="#">Social</a></li>
+                <li><a href="#">Disclaimer</a></li>
+            </ul>
+            <p>&copy; 2024 World Wide Survival Web Archive. All Rights Reserved.</p>
+        </div>
+    </footer>
+</body>
+</html>

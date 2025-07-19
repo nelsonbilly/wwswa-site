@@ -1,0 +1,78 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Bug Out Builder | WWSWA</title>
+    <link rel="stylesheet" href="./style.css" />
+    <meta name="description" content="Build your personalized 72-hour survival kit." />
+</head>
+<body>
+    <header class="main-header">
+        <div class="container">
+            <a href="index.html" class="logo"><img src="assets/logo.png" alt="World Wide Survival Web Archive Logo"></a>
+            <nav class="main-nav">
+                <ul>
+                    <li><a href="gear.html">Gear Grid</a></li>
+                    <li><a href="scenarios.html">Scenarios</a></li>
+                    <li><a href="bugout.html" class="active">Bug Out Builder</a></li>
+                    <li><a href="skills.html">Skills Academy</a></li>
+                    <li><a href="printables.html">Printables</a></li>
+                    <li><a href="radio.html">Radio</a></li>
+                    <li><a href="kids.html">WW Junior</a></li>
+                    <li><a href="quizzes.html">Quizzes</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main class="section">
+        <div class="container">
+            <h2 class="section-title">Bug Out Base Builder</h2>
+            <div class="form-container">
+                <form>
+                    <div class="form-group">
+                        <label for="region">Choose your primary region:</label>
+                        <select id="region" name="region">
+                            <option value="temperate">Temperate / Urban</option>
+                            <option value="cold">Cold / Mountainous</option>
+                            <option value="warm">Warm / Arid</option>
+                            <option value="coastal">Coastal / Humid</option>
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <label for="budget">Select your budget:</label>
+                        <select id="budget" name="budget">
+                            <option value="basic">Basic Essentials (&lt; $200)</option>
+                            <option value="standard">Standard Kit ($200 - $500)</option>
+                            <option value="premium">Premium Loadout (> $500)</option>
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <label for="people">Number of people:</label>
+                        <input type="number" id="people" name="people" value="1" min="1" max="10">
+                    </div>
+                    <button type="submit" class="btn">Generate Kit</button>
+                </form>
+
+                <div class="form-results">
+                    <h3>Your Recommended Kit:</h3>
+                    <p>Submit the form to see your personalized gear recommendations here. This area will populate with a checklist of items tailored to your selections.</p>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <footer class="main-footer">
+        <div class="container">
+            <ul class="footer-links">
+                <li><a href="#">Newsletter</a></li>
+                <li><a href="#">Social</a></li>
+                <li><a href="#">Disclaimer</a></li>
+            </ul>
+            <p>&copy; 2024 World Wide Survival Web Archive. All Rights Reserved.</p>
+        </div>
+    </footer>
+</body>
+</html>
